@@ -56,7 +56,7 @@ const generarPokemonAleatorio = () => {
     PokemonEncontrar.classList.add("Pokemon");
     PokemonEncontrar.innerHTML = `
         <h3 class="pokemon-name">${nombre}</h3>
-        <div class="pokemon-image">
+        <div class="pokemon-image" id="contenedor1">
             <img id="pokemonImg" src="${pokemonAleatorio.sprites.other["official-artwork"].front_default}" alt="${nombre}">
         </div>
         <p class="pokemon-ability">${habilidad}</p>
