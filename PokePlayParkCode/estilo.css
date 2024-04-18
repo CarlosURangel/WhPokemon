@@ -626,7 +626,6 @@ a{
     filter: brightness(0);
     top: 30%;
     opacity: 1;
-    z-index: 1000;
 }
 
 .pokemon-types{
