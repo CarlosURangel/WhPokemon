@@ -192,6 +192,25 @@ main{
     padding: .1rem .2rem;
 }
 
+.height-p{
+    color: #fff;
+    background-color: #000000;
+    border-radius: 100vmax;
+    text-align: center;
+    padding: .1rem .2rem;
+    
+}
+
+
+.weight-p{
+    color: #fff;
+    background-color: #000000;
+    border-radius: 100vmax;
+    text-align: center;
+    padding: .1rem .2rem;
+    
+}
+
 .height{
     color: #fff;
     background-color: #000000;
@@ -200,6 +219,7 @@ main{
     padding: .1rem .2rem;
     opacity: 0;
 }
+
 
 .weight{
     color: #fff;

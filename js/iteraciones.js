@@ -159,8 +159,8 @@ function agregarPokemonAlHTML(pokemon, habilidad) {
             ${tipos}
         </div>
         <div class="pokemon-stats-chosen">
-            <p class="height">${pokemon.altura}</p> <!-- Mostrar la altura -->
-            <p class="weight">${pokemon.peso}</p> <!-- Mostrar el peso -->
+            <p class="height-p">${pokemon.altura}</p> <!-- Mostrar la altura -->
+            <p class="weight-p">${pokemon.peso}</p> <!-- Mostrar el peso -->
         </div>
     `;
     const tiposAleatorio = pokemonAleatorios[0].tipos;
